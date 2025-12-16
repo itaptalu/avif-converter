@@ -1,5 +1,5 @@
 <template>
-  <ClientOnly>
-    <AvifConverter />
-  </ClientOnly>
+	<ClientOnly>
+		<AvifConverter />
+	</ClientOnly>
 </template>
