@@ -13,8 +13,8 @@ export default defineEventHandler(async (event) => {
 
 	const avif = await sharp(file.data)
 		.avif({
-			quality: 45, // 0–100
-			effort: 6, // 0–9 (скорость / сжатие)
+			quality: 60,
+			effort: 4,
 			chromaSubsampling: '4:2:0',
 		})
 		.toBuffer();
